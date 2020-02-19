@@ -6,9 +6,7 @@ categories: Java
 tags: Java
 ---
 
-## 람다 표현식(Lambda Expression)
-
-### 1. 람다식 개요
+## 1. 람다식 개요
 람다 표현식(Lambda Expression)은 `기능 하나를 정의해서 전달해야 하는 상황`에 사용될 수 있다.  `Comparator<T>` 인터페이스의 구현이 필요한 상황이 대표적인 예이다.
 ```java
 class SLenComp implements Comparator<String> {
@@ -55,7 +53,7 @@ new Thread(()->{
 ```
 위의 예제를 통해 확인할 수 있는 람다 표현식의 장점은 불필요한 코드를 줄이고 가독성을 높인다는 것이다.
 
-### 2. 람다식 표현 방법
+## 2. 람다식 표현 방법
 * 람다식의 좌변에는 메소드의 매개변수를, 우변에는 메소드의 몸체를 선언한다. 
 * 메소드 몸체가 둘 이상의 문장으로 이뤄져 있거나, 매개변수가 둘 이상인 경우에는 각각 중괄호와 소괄호의 생략이 불가능하다. 
 * 중괄호를 생략할 경우 해당 문장의 끝에 위치한 세미콜론도 함께 지워야 한다. 
@@ -68,7 +66,7 @@ new Thread(()->{
 ( ) -> { expression body }
 ```
 
-### 3. 함수형 인터페이스 및 @FunctionalInterface 어노테이션
+## 3. 함수형 인터페이스 및 @FunctionalInterface 어노테이션
 추상 메소드가 딱 하나만 존재하는 인터페이스를 `함수형 인터페이스(Functional Interface)`라고 한다. 그리고 람다식은 함수형 인터페이스를 기반으로만 작성이 될 수 있다.
 ```java
 @FunctionalInterface
@@ -87,7 +85,7 @@ interface Calculate {
 }
 ```
 
-### Reference
+## Reference
 * https://jdm.kr/blog/181
 * https://multifrontgarden.tistory.com/124 
 * https://multifrontgarden.tistory.com/125?category=471239 
