@@ -96,7 +96,7 @@ BinaryOperator<T>    T apply(T t1, T t2)
 ```
 `reduce`를 호출하면 내부적으로 `apply`를 호출하면서 스트림에 저장된 데이터를 다음과 같이 줄여나간다.
 
-![image](./img/reduce.png)
+![image](/post_assets/2020-02-20/reduce.png)
 > Image 참고 : 윤성우의 열혈 Java 프로그래밍, 윤성우, 오렌지미디어, 2017, p.747
 
 문자열 길이를 기준으로 리덕션을 수행하는 예
@@ -123,7 +123,7 @@ String str = ls.parallelStream().reduce("", lc);
 병렬 스트림을 생성하면 이어지는 연산들은 CPU의 코어 개수를 고려하여 적절하게 병렬 처리가 된다. 
 
   
-![image](./img/parallel-processing.png)
+![image](/post_assets/2020-02-20/parallel-processing.png)
 > Image 참고 : 윤성우의 열혈 Java 프로그래밍, 윤성우, 오렌지미디어, 2017, p.751
 
 
