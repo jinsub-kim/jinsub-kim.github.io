@@ -18,20 +18,20 @@
         </a>
       </div>
       <div class="sidebar-personal-info-section" >
-        <p>도도한쉬리의 개발 블로그<br><br>풋내기가 상급자로 가는 과정은<br>자신의 부족함을 아는 것이 첫 번째.</p>
+        <p>{{ site.author.description }}</p>
       </div>
       {% if site.author.contact %}
       {% assign len = site.author.contact | size %}
       {% assign current_index = 0 %}
       <div class="sidebar-personal-info-section">
-        <p> Contact: 
+        <p> Contact  : 
         {% for contact in site.author.contact %}
         {% assign iconname = contact[0] %}
         {% if contact[0] == 'email' %}
         {% assign iconname = 'envelope' %}
         {% endif %}
         <a href="{{ contact[1] }}">
-          <i class="fa fa-{{ iconname }} fa-2x" aria-hidden="true"></i>
+          <i class="fa fa-{{ iconname }}" aria-hidden="true"></i>
         </a>
         {% assign current_index = current_index | plus: 1 %}
         {% if current_index != len %}|{% endif %}
@@ -73,7 +73,7 @@
 
     {% endfor %}
 
-    <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
+    <!-- <span class="sidebar-nav-item">Currently v{{ site.version }}</span> -->
   </nav>
 
   <div class="sidebar-item">
