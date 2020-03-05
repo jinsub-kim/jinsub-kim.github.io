@@ -143,6 +143,6 @@ boolean noneMatch(Predicate<? super T> predicate)
 또한 `IntStream`, `DoubleStream`, `LongStream` 인터페이스에도 위와 동일한 메소드들이 존재한다.
 
 ## Reference
-* https://futurecreator.github.io/2018/08/26/java-8-streams/
-* https://futurecreator.github.io/2018/08/26/java-8-streams-advanced/
-* 윤성우의 열혈 Java 프로그래밍, 윤성우, 오렌지미디어, 2017
+> https://futurecreator.github.io/2018/08/26/java-8-streams/ <br>
+> https://futurecreator.github.io/2018/08/26/java-8-streams-advanced/ <br>
+> 윤성우의 열혈 Java 프로그래밍, 윤성우, 오렌지미디어, 2017

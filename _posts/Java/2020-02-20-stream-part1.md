@@ -130,6 +130,6 @@ Stream.concat(ss1, ss2).forEach(s -> System.out.println(s)); // Cake Milk Lemon 
 ```
 
 ## Reference
-* https://futurecreator.github.io/2018/08/26/java-8-streams/
-* https://futurecreator.github.io/2018/08/26/java-8-streams-advanced/
-* 윤성우의 열혈 Java 프로그래밍, 윤성우, 오렌지미디어, 2017
+> https://futurecreator.github.io/2018/08/26/java-8-streams/ <br>
+> https://futurecreator.github.io/2018/08/26/java-8-streams-advanced/ <br>
+> 윤성우의 열혈 Java 프로그래밍, 윤성우, 오렌지미디어, 2017
