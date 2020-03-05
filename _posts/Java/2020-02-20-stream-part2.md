@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "스트림(Stream) Part 2 : 스트림의 연산"
+title:  "스트림(Stream) (2) : 스트림의 연산"
 date:   2020-02-20 01:04:32 +0900
 categories: Java
 tags: Java

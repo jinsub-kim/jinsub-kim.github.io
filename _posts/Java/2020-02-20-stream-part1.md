@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "스트림(Stream) Part 1 : 스트림의 개요 및 생성"
+title:  "스트림(Stream) (1) : 스트림의 개요 및 생성"
 date:   2020-02-20 00:52:49 +0900
 categories: Java
 tags: Java
