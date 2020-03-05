@@ -86,7 +86,7 @@ interface Calculate {
 ```
 
 ## Reference
-* https://jdm.kr/blog/181
-* https://multifrontgarden.tistory.com/124 
-* https://multifrontgarden.tistory.com/125?category=471239 
-* 윤성우의 열혈 Java 프로그래밍, 윤성우, 오렌지미디어, 2017 
+> https://jdm.kr/blog/181 <br>
+> https://multifrontgarden.tistory.com/124 <br>
+> https://multifrontgarden.tistory.com/125?category=471239 <br>
+> 윤성우의 열혈 Java 프로그래밍, 윤성우, 오렌지미디어, 2017 
