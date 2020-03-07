@@ -60,10 +60,10 @@ DoubleStream mapToDouble(ToDoubleFunction<? super T> mapper)
 정렬 기능을 제공하는 중간 연산 메소드들은 다음과 같다.
 ```java
 Stream<T> sorted(Comparator<? super T> comparator)
-Stream<T> sorted()
-IntStream sorted()
-LongStream sorted()
-DoubleStream sorted()
+Stream<T> sorted(Comparator<? super T> comparator)
+IntStream sorted(Comparator<? super T> comparator)
+LongStream sorted(Comparator<? super T> comparator)
+DoubleStream sorted(Comparator<? super T> comparator)
 ```
 이 중 첫 번째 메소드를 사용하기 위해선 `Comparator<T>` 인터페이스의 `compare`메소드 구현에 해당하는 람다식을 전달해야 한다.
 ```java
